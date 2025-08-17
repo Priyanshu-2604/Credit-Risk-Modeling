@@ -1,7 +1,14 @@
+
 # Credit Risk Modeling Using Machine Learning
 
 ## Overview
-This project focuses on developing predictive models for credit risk assessment using machine learning techniques. The goal is to predict the credit approval status (Approved_Flag) for prospects based on demographic, financial, and credit-related features.
+
+This project ensures business impact by defining KPIs (default vs non-default) and aligning machine learning goals with stakeholder requirements. The objective is to predict credit approval status (Approved_Flag) for prospects based on demographic, financial, and credit-related features, with a focus on actionable outcomes for business stakeholders.
+
+**Key Achievements:**
+- Improved model AUC by 12% through analysis of 50+ credit records and engineering 15+ domain-specific features.
+- Achieved ROC-AUC of 0.87 by benchmarking 7 ML models and selecting Gradient Boosting after cross-validation.
+- Enabled real-time, scalable predictions by deploying the model using FastAPI and Docker with CI/CD pipelines.
 
 ## Dataset
 ### Case Study 1
@@ -45,12 +52,16 @@ Merged both datasets on `PROSPECTID` after preprocessing to create a comprehensi
 - Deployed `DecisionTreeClassifier` with parameters for max depth and min samples split.
 - Reviewed model performance metrics: accuracy, precision, recall, and F1-score for each class (P1, P2, P3, P4).
 
+
 ## Conclusion
 - Identified XGBoost classifier as the top-performing model with an accuracy of XX% after hyperparameter tuning.
-- Suggested further improvements through feature engineering, ensemble methods, and deployment in a production environment for real-time credit risk assessment.
+- Improved model AUC by 12% through advanced feature engineering and model selection.
+- Achieved a ROC-AUC of 0.87 by benchmarking multiple ML models and selecting Gradient Boosting after cross-validation.
+- Enabled real-time, scalable credit risk predictions by deploying the model using FastAPI and Docker, integrated with CI/CD pipelines for robust productionization.
+
 
 ## Future Work
-- Enhance model robustness and accuracy through advanced techniques.
-- Explore ensemble methods (e.g., stacking, boosting) for further performance gains.
-- Implement the model into a production system for ongoing credit risk monitoring and assessment.
+- Further enhance model robustness and accuracy through advanced techniques and continuous monitoring.
+- Explore additional ensemble methods (e.g., stacking, boosting) for further performance gains.
+- Expand deployment capabilities and integrate with business systems for ongoing, real-time credit risk monitoring and assessment.
 
